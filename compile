@@ -1,0 +1,1 @@
+nvcc -std=c++17 -I libthrust nectar.o main.cpp -lpthread -o main
