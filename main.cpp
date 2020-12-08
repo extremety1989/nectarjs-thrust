@@ -10,6 +10,6 @@ using namespace NectarCore::Functions;
 
 int main(int argc, char** argv)
 {
-	printl("koo");
+	println("okey");
 	return 0;
 }

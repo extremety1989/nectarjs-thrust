@@ -1,1 +1,3 @@
+g++ -std=c++17 -c src/nectar.hpp -Ofast
+g++ -std=c++17 -c src/nectar.cpp -Ofast
 nvcc -std=c++17 -I libthrust nectar.o main.cpp -lpthread -o main
